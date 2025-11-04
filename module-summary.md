@@ -13,13 +13,38 @@ math needed for programming
 
 1. number : positive / negative
 2. number type : integer and float , even odd
-3. Operation : + , - ,  * , / , %
-4. percentage 
-5. sum 
-6. average 
-7. max/min number 
-8. series : even / odd 
-9. area: triangle , rectangular , circle 
-10. prime number , 
-11. x axis , y axis 
-12. 
+3. Operation : + , - , \* , / , %
+4. percentage
+5. sum
+6. average
+7. max/min number
+8. series : even / odd
+9. area: triangle , rectangular , circle
+10. prime number
+11. x axis , y axis
+
+Variable in JavaScript
+= variable is container where can store data . it means it is able to vary something.
+
+there are 5 things to declare variable
+
+1. var/let/const keyword for declare variable
+2. meaningful name for variable
+3. (=) equal sign to assign value
+4. value of variable
+5. semi-colon (;)
+
+example :
+var name = 'shaon';
+let age = 23;
+const nationality = 'Bangladeshi';
+const isPoor = true;
+
+if i declare a variable but don't assign value for it it will return undefined . 
+
+for print the output 
+console.log(variable name);
+
+example: 
+let age = 23;
+console.log(age);
