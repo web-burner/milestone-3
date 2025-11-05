@@ -134,3 +134,36 @@ console.log(num2/ 0);
 
 what is NaN? 
 = NaN stands for Not a Number . কোনও সংখ্যার  অপারেশন সম্পন্ন করার পর যদি সংখ্যা খুঁজে না পায় তবে তাঁকে NaN হিসাবে আউটপুট দিবে। 
+
+
+
+Arithmetic operations 
+addition (+): দুই বা ততোধিক সংখ্যার যোগ সম্পন্ন করে। 
+const num1 = 234;
+const num2 = 200;
+console.log(num1 + num2);
+
+subtraction (-): দুই বা ততোধিক সংখ্যার বিয়োগ সম্পন্ন করে। 
+const num1 = 234;
+const num2 = 200;
+console.log(num1 - num2);
+
+multiplication (*): দুই বা ততোধিক সংখ্যার গুণ সম্পন্ন করে। 
+const num1 = 10;
+const num2 = 5;
+console.log(num1 * num2);
+
+division (/); দুই বা ততোধিক সংখ্যার ভাগ সম্পন্ন করে। 
+const num1 = 50;
+const num2 = 5;
+console.log(num1 / num2);
+
+modulus (%): দুইটি সংখ্যার ভাগশেষ বের করে 
+const num1 = 11;
+const num2 = 2;
+console.log(num1 % num2);
+
+exponentiation (**): কোনও সংখ্যার উপর পাওয়ার দিতে ব্যবহার করা হয়। 
+const num = 23;
+const powered = num ** 2;
+console.log(powered);
