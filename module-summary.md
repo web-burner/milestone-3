@@ -39,6 +39,11 @@ var name = 'shaon';
 let age = 23;
 const nationality = 'Bangladeshi';
 const isPoor = true;
+here if we declare a variable with var keyword it will be re-declarable and re-assignable 
+
+for let keyword it's value upgrade but cannot re-declare 
+
+for const it is not able to upgrade value and re-declare . 
 
 if i declare a variable but don't assign value for it it will return undefined . 
 
@@ -48,3 +53,35 @@ console.log(variable name);
 example: 
 let age = 23;
 console.log(age);
+
+
+
+data type : 
+string : string হলো text format ভ্যালু। single/ double quotation এর মধ্যে কিছু লেখা হলে সেটি string হিসাবে গণ্য করা হয়।
+example : 
+let name = 'shaon';
+console.log(name);
+
+number/numeric: সংখ্যা লিখার জন্য কোনও quotation ব্যবহার না করে লিখা লাগে । number কে ২ ভাবে জানতে পারি 
+    ১। integer (দশমিক ছাড়া সংখ্যা)
+    ২। float (দশমিক সহ সংখ্যা)
+
+example : 
+let age = 23;
+let pi = 3.1416;
+console.log(age,pi)
+
+boolean : যার ভ্যালু সত্য/মিথ্যা হয় (true/false)
+
+example : 
+const isRich = false;
+console.log(isRich);
+
+
+check type of data 
+কি ধরনের ডাটা তা বুঝার জন্য typeof keyword ব্যবহার করা হয়। 
+
+example : 
+const isPoor = true;
+console.log(typeof isPoor);
+
