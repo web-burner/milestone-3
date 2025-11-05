@@ -85,3 +85,21 @@ example :
 const isPoor = true;
 console.log(typeof isPoor);
 
+keyword : keyword হচ্ছে জাভাসকৃপ্টের কিছু কিওয়ার্ড যেই গুলা কিছু কাজ এর জন্য রিসার্ভড করে দেওয়া আছে। 
+
+like, var/let/const etc.
+
+naming convention : 
+1. no keyword 
+2. no space or gap in variable name 
+3. no quote (""/'')
+4. cannot start with number but number can use from second word 
+5. case sensitive (uppercase/lowercase)
+6. recommended camelCase (userName)
+7. use underscore for gap in variable name (snake case);
+8. pascal case (UserName)
+
+
+js keyword is always should be lowercase 
+
+
