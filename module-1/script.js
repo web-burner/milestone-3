@@ -40,6 +40,30 @@
 // console.log(num1 % num2);
 
 
-const num = 23;
-const powered = num ** 2;
-console.log(powered)
+// const num = 23;
+// const powered = num ** 2;
+// console.log(powered)
+
+// let num = 29;
+// num += 10;
+// console.log(num)
+// let num = 29;
+// num -= 10;
+// console.log(num)
+// let num = 29;
+// num *= 10;
+// console.log(num)
+// let num = 29;
+// num /= 3;
+// console.log(num)
+// let num = 29;
+// num %= 2;
+// console.log(num)
+
+// let num = 10;
+// num **= 2;
+// console.log(num)
+
+const num1 = 20;
+const num2 = '10';
+console.log(num1+num2);
