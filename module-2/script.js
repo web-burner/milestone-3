@@ -50,16 +50,16 @@
 //   console.log("no discount");
 // }
 
-const age = 23;
-const money = 500;
+const age = 18;
+const money = 0;
 if (age >= 18) {
   if (money >= 300) {
     console.log("You can buy a premium ticket");
-  }
-} else if (age < 18) {
-  if (money < 300) {
+  } else if (money >= 200) {
     console.log("you can buy a regular ticket");
+  } else {
+    console.log("dure giya mor goribs");
   }
 } else {
-  console.log("dure giya mor goribs");
+  console.log("you are not eligible for entry");
 }

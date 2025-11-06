@@ -144,3 +144,18 @@ if (age >= 18) {
 } else {
   console.log("dure giya mor goribs");
 }
+
+example -2 :
+const age = 18;
+const money = 0;
+if (age >= 18) {
+  if (money >= 300) {
+    console.log("You can buy a premium ticket");
+  } else if (money >= 200) {
+    console.log("you can buy a regular ticket");
+  } else {
+    console.log("dure giya mor goribs");
+  }
+} else {
+  console.log("you are not eligible for entry");
+}
