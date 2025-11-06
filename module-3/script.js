@@ -35,11 +35,30 @@
 // }
 // console.log(sum)
 
-// even odd
-let num = 1;
-while (num <= 10) {
-  if (num % 2 === 0) {
-    console.log(num);
-  }
-  num++;
+// // even odd
+// let num = 1;
+// while (num <= 10) {
+//   if (num % 2 === 0) {
+//     console.log(num);
+//   }
+//   num++;
+// }
+
+// for loop
+
+// for(let i = 1; i<=10; i++){
+//     console.log(i);
+// }
+
+// // even odd
+// for (let i = 1; i <= 10; i++) {
+//   // console.log(i);
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// print 1 to 20
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
 }

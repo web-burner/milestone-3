@@ -64,3 +64,28 @@ while (num <= 10) {
   }
   num++;
 }
+
+
+for loop : 
+
+for(initializer; condition; increment/decrement){
+    loop body;
+}
+
+example: simple for loop
+for(let i = 1; i<=10; i++){
+    console.log(i);
+}
+
+example-2 : // even odd
+for (let i = 1; i <= 10; i++) {
+  // console.log(i);
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+example-3 : // print 1 to 20
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
+}
