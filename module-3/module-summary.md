@@ -34,3 +34,33 @@ while এর মধ্যে condition দিয়ে একটি কাজ �
 
 cannot use infinite loop 
 infinite loop is that loop which loop has a condition which is always return a true value.
+
+
+problem solving with while loop 
+
+example : // show number 1 to 10
+let number = 1;
+while (number <= 10) {
+  console.log(number);
+  number++;
+}
+
+ example 2 : // sum of all number 
+let num = 1;
+let sum = 0; 
+while (num <= 10){
+    sum+= num;
+    num++;
+    // console.log(sum);
+}
+console.log(sum)
+
+
+example 3 : // even odd
+let num = 1;
+while (num <= 10) {
+  if (num % 2 === 0) {
+    console.log(num);
+  }
+  num++;
+}

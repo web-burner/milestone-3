@@ -17,3 +17,29 @@
 //   console.log(num);
 //   num++;
 // }
+
+// // show number 1 to 10
+// let number = 1;
+// while (number <= 10) {
+//   console.log(number);
+//   number++;
+// }
+
+// // sum of all number
+// let num = 1;
+// let sum = 0;
+// while (num <= 10){
+//     sum+= num;
+//     num++;
+//     // console.log(sum);
+// }
+// console.log(sum)
+
+// even odd
+let num = 1;
+while (num <= 10) {
+  if (num % 2 === 0) {
+    console.log(num);
+  }
+  num++;
+}
