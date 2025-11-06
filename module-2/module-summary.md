@@ -159,3 +159,29 @@ if (age >= 18) {
 } else {
   console.log("you are not eligible for entry");
 }
+
+
+ternary operator 
+ternary operator হলো shorthand of if else 
+
+example : 
+if/else 
+const age = 23;
+const result = age >= 18 ? "Adult" : "Minor";
+console.log(result);
+
+only if 
+const age = 23;
+const result = age >= 18 && "Adult" ;
+console.log(result);
+
+nested ternary 
+let price = 5000;
+const isLeader = false;
+
+const result = isLeader
+  ? price > 2000
+    ? (price /= 2)
+    : 0
+  : (price += price * 0.5);
+console.log(result);
