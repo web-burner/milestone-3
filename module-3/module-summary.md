@@ -139,3 +139,44 @@ for(let i = 1; i< 20 ; i++){
     }
 }
 console.log(sum);
+
+
+break and continue : 
+
+break : এর মাধ্যমে লুপ কে কন্ডিশন অনুযায়ী থামিয়ে দেওয়া যায়। মানে কন্ডিশন যেখানে মিলে যাবে তখন লুপ সেখানেই থেমে যাবে।
+
+example: 
+for (let i = 1; i < 20; i++) {
+  console.log(i);
+  if (i === 10) {
+    break;
+  }
+}
+
+for (let i = 1; i < 20; i++) {
+  console.log(i);
+  if (i >= 10) {
+    break;
+  }
+}
+
+continue : এর মাধ্যমে লুপ এর মধ্যে কোনো এলিমেন্ট কে স্কিপ করে দিতে ব্যবহার করা হয়। মানে কন্ডিশন অনুযায়ী যে এলিমেন্ট টা মিলে যাবে তাঁকে স্কিপ করবে। 
+
+example: 
+for (let i = 1; i <= 20; i++) {
+  if (i % 3 === 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+let i = 1;
+while (i <= 20) {
+  i++;
+  if (i % 5 !== 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+এখানে i এর value আগেই increment করা হয়েছে কারণ পরে increment করলে লুপ স্কিপ হয়ে যাচ্ছে তাই আর increment হচ্ছে না। 
