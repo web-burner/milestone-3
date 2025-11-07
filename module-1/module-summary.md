@@ -54,6 +54,11 @@ example:
 let age = 23;
 console.log(age);
 
+value update : 
+let age = 23;
+age = 24; 
+console.log(age);
+
 
 
 data type : 
@@ -216,3 +221,4 @@ const num2 = '10';
 console.log(num1+num2);
 
 তবে এখানে একটা প্রবলেম আছে এইটা যোগ এর ক্ষেত্রে পাশাপাশি বসে তবে অন্য অপারেশন এর ক্ষেত্রে সঠিক math করে। 
+

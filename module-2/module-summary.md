@@ -185,3 +185,33 @@ const result = isLeader
     : 0
   : (price += price * 0.5);
 console.log(result);
+
+
+logical not (!) লজিকাল নট ভ্যালু কে উল্টে দে true থাকলে false করে দেয় 
+normal way 
+const isLeader = true;
+if(isLeader){
+    console.log('leader is coming');
+}else {
+    console.log('vitore dukte dimu na')
+}
+
+এখানে আমি ডাইরেক্টলি false চেক করছি 
+const isPassed = false;
+if(isPassed === false){
+    console.log('tore biya diya dimu');
+}else {
+    console.log('khaite bos')
+} 
+
+এখানে আমি logical not use করবো 
+
+const isPassed = false;
+if (!isPassed) {
+  console.log("tore biya diya dimu");
+} else {
+  console.log("khaite ja biriyani ache");
+}
+
+
+double not (!!) value কে ২ বার উল্টে দে তারপর সত্য মিথ্যা রিটার্ন করে 

@@ -68,12 +68,33 @@
 // const result = age >= 18 && "Adult" ;
 // console.log(result);
 
-let price = 5000;
-const isLeader = false;
+// let price = 5000;
+// const isLeader = false;
 
-const result = isLeader
-  ? price > 2000
-    ? (price /= 2)
-    : 0
-  : (price += price * 0.5);
-console.log(result);
+// const result = isLeader
+//   ? price > 2000
+//     ? (price /= 2)
+//     : 0
+//   : (price += price * 0.5);
+// console.log(result);
+
+// const isLeader = true;
+// if(isLeader){
+//     console.log('leader is coming');
+// }else {
+//     console.log('vitore dukte dimu na')
+// }
+
+// const isPassed = false;
+// if(isPassed === false){
+//     console.log('tore biya diya dimu');
+// }else {
+//     console.log('khaite bos')
+// }
+
+const isPassed = false;
+if (!isPassed) {
+  console.log("tore biya diya dimu");
+} else {
+  console.log("khaite ja biriyani ache");
+}
