@@ -180,3 +180,12 @@ while (i <= 20) {
 }
 
 এখানে i এর value আগেই increment করা হয়েছে কারণ পরে increment করলে লুপ স্কিপ হয়ে যাচ্ছে তাই আর increment হচ্ছে না। 
+
+do while loop : এর মাধ্যমে কোনও একটা কাজ কমপক্ষে একবার রান করবে । must run once 
+
+example: 
+let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 10);
