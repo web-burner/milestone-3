@@ -37,7 +37,40 @@
 // numbers.shift();
 // console.log(numbers);
 
-//unshift method 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-numbers.unshift(0);
-console.log(numbers);
+// //unshift method
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// numbers.unshift(0);
+// console.log(numbers);
+
+// // includes method
+// const friends = ["shaon", "poddo", "sujon", "faysal"];
+// console.log(friends.includes("sujon"));
+
+// // indexOf method
+// const friends = ["shaon", "poddo", "sujon", "faysal"];
+// console.log(friends.indexOf('poddo'));
+// console.log(friends.indexOf('roman'))
+
+// // Array.isArray method
+// const friends = ["shaon", "poddo", "sujon", "faysal"];
+// console.log(Array.isArray(friends))
+
+// // join method
+// const friends = ["shaon", "poddo", "sujon", "faysal"];
+// console.log(friends.join(','))
+
+// // concat method
+// const num1 = [1, 2, 3, 4, 5];
+// const num2 = [6, 7, 8, 9, 10];
+// const num3 = num1.concat(num2);
+// console.log(num3);
+
+// // slice method
+// const friends = ["shaon", "poddo", "sujon", "faysal"];
+// console.log(friends.slice(0, 2));
+// console.log(friends)
+
+// // splice method :
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(numbers.splice(1, 5, 10));
+// console.log(numbers);
