@@ -17,3 +17,31 @@ const country = "Bangladesh";
 console.log(country[0]);
 
 কিন্তু এইখানে index নাম্বার দিয়ে element get করা যায় ঠিক কিন্তু এলিমেন্ট change করা যায় না। string is immutable means not changeable . 
+
+toLowerCase() : এর মাধ্যমে কোনও একটা স্ট্রিং কে lowerCase এর কনভার্ট করা যায়। 
+
+example : 
+cosnt name = 'shaon';
+console.log(name.toLowerCase());
+
+compare 2 string 
+const subject = 'Chemistry';
+const book = 'chemistry';
+if(subject.toLowerCase() === book.toLowerCase()){
+    console.log('porikkhay fatay felmu');
+}else{
+    console.log('ammur hater mair khamu');
+} এখানে ২টা স্ট্রিং কে প্রথমে lowerCase এ কনভার্ট করে then কমপেয়ার করা হয়েছে। কারণ javascript is case sensitive। 
+
+toUpperCase(): এর মাধ্যমে স্ট্রিং কে upperCase এ কনভার্ট করা যায়। 
+
+example : 
+const name = 'shoan';
+console.log(name.toUpperCase());
+
+
+trim : string এর শুরুতে বা শেষে স্পেস remove করতে use হয়। 
+
+example: 
+const str = '   panir opor nam life    '
+console.log(str.trim());
