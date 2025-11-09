@@ -45,3 +45,34 @@ trim : string এর শুরুতে বা শেষে স্পেস remo
 example: 
 const str = '   panir opor nam life    '
 console.log(str.trim());
+
+split : কোনও একটা স্ট্রিং এর এলিমেন্ট গুলোকে split করে দেয়। এটি string element গুলোকে আলাদা করে একটা এরে রিটার্ন করে। আবার array element গুলোকে একটা স্ট্রিং রিটার্ন করে।
+
+example : এইটা একটা এরে রিটার্ন করবে।
+const str = "shaon,poddo,sujon,faysal";
+console.log(str.split(","));
+
+example : এইটা একটা স্ট্রিং রিটার্ন করবে।
+const friends = ["shaon", "poddo", "sujon", "faysal"];
+console.log(friends.join(""));
+
+slice : string এর কোনও একটা অংশ কেটে নেওয়ার কাজ করে। 
+
+example : // slice method
+const str = 'programming';
+console.log(str.slice(3,10));
+
+concat : ২টি string কে eksathe জোরা লাগায়।
+
+example : // concat
+const frist = "Shaon";
+const second = "Rana";
+const fullname = frist.concat(" ", second);
+console.log(fullname);
+
+includes : string এর মধ্যে কোনও character অন্তভুক্ত আছে কিনা তা যাচাই করা হয়। 
+
+example  : // includes
+
+const str = "my programming language is javascript";
+console.log(str.includes("programming"));
