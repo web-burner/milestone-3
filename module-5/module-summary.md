@@ -100,3 +100,19 @@ console.log(reversed);
 const str = "i am learning web dev";
 const reversed = str.split("").reverse().join("");
 console.log(reversed);
+
+
+Object properties and values 
+
+Object : কোনও একটি নির্দিষ্ট জিনিসের একাধিক ইনফরমেশন একটা ভ্যারিয়েবল এর মধ্যে রাখার যে পদ্ধতি তাঁকে অবজেক্ট বলে।
+
+syntax: 
+const obj = {
+    name: 'shaon',
+    age: 23
+}
+
+এখানে name,age হচ্ছে keys/properties আর shaon,23 হচ্ছে ভ্যালু। 
+অবজেক্ট এর keys/properties and value pair আকারে থাকবে। 
+object হলো একটি non-primitive data .
+যার ভ্যালু mixed হবে। স্ট্রিং, নাম্বার, বুলিয়ান ইত্যাদি। 

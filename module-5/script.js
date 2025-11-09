@@ -67,3 +67,9 @@
 // const str = "i am learning web dev";
 // const reversed = str.split("").reverse().join("");
 // console.log(reversed);
+
+
+const obj = {
+    name: 'shaon',
+    age: 23
+}
