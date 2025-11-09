@@ -44,4 +44,26 @@
 // const str = "my programming language is javascript";
 // console.log(str.includes("programming"));
 
+// reverse a string
 
+// // 1. method
+// const str = "i am learning web dev";
+// let reversed = "";
+// for (let i of str) {
+//   reversed = i + reversed;
+// }
+// console.log(reversed);
+
+// const str = "i am learning web dev";
+// let reversed = "";
+// for (let i = 0; i < str.length; i++) {
+//   //   console.log(str[i]);
+//   reversed = str[i] + reversed;
+// }
+
+// console.log(reversed);
+
+// // method - 3
+// const str = "i am learning web dev";
+// const reversed = str.split("").reverse().join("");
+// console.log(reversed);
