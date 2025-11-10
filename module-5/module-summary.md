@@ -228,3 +228,28 @@ const school = {
 
 delete school.subject;
 console.log(school);
+
+
+loop an object : object এর মধ্যে for in loop use করে তার properties কে access করে।
+
+example : // loop an obejct
+
+const person = {
+  name: "Shaon",
+  age: 23,
+  profession: "Developer",
+  salary: 40000,
+};
+for (let prop in person) {
+  console.log(prop);
+  console.log(person[prop]);
+}
+
+
+// different ways to declare object
+
+const pen = { brand: "metador", price: 10, color: "blace" };
+
+const pencil = new Object();
+const rubber = Object.create({});
+console.log(pen, pencil, rubber);

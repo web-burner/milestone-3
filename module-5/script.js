@@ -123,21 +123,42 @@
 // const values = Object.values(person);
 // console.log(values);
 
-// nested object
-const school = {
-  name: "Pora lekha valo na school",
-  class: 10,
-  subject: {
-    bangla: {
-      bangla1: "Bangla 1st",
-      bangla2: "Bangla 2nd",
-    },
-    english: {
-      english1: "English 1st",
-      english2: "English 2nd",
-    },
-  },
-};
+// // nested object
+// const school = {
+//   name: "Pora lekha valo na school",
+//   class: 10,
+//   subject: {
+//     bangla: {
+//       bangla1: "Bangla 1st",
+//       bangla2: "Bangla 2nd",
+//     },
+//     english: {
+//       english1: "English 1st",
+//       english2: "English 2nd",
+//     },
+//   },
+// };
 
-delete school.subject;
-console.log(school);
+// delete school.subject;
+// console.log(school);
+
+// // loop an obejct
+
+// const person = {
+//   name: "Shaon",
+//   age: 23,
+//   profession: "Developer",
+//   salary: 40000,
+// };
+// for (let prop in person) {
+//   console.log(prop);
+//   console.log(person[prop]);
+// }
+
+// // ways to declare objece
+
+// const pen = { brand: "metador", price: 10, color: "blace" };
+
+// const pencil = new Object();
+// const rubber = Object.create({});
+// console.log(pen, pencil, rubber);
