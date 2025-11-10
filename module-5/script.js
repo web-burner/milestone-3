@@ -68,8 +68,35 @@
 // const reversed = str.split("").reverse().join("");
 // console.log(reversed);
 
+// object properties
+// const obj = {
+//     name: 'shaon',
+//     age: 23
+// }
 
-const obj = {
-    name: 'shaon',
-    age: 23
-}
+// const person = {
+//   name: "Shaon",
+//   age: 23,
+//   location: "Malaysia",
+// };
+// const age = person["age"];
+// console.log(age);
+// const name = obj.name;
+// console.log(name);
+
+// value access and change
+const person = {
+  name: "Shaon",
+  age: 23,
+  profession: "Developer",
+  salary: 40000,
+};
+
+person["salary"] += 10000;
+console.log(person["salary"]);
+
+// or
+
+const position = "profession";
+person[position] = "DevOps";
+console.log(person);

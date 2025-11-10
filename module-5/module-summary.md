@@ -113,6 +113,47 @@ const obj = {
 }
 
 এখানে name,age হচ্ছে keys/properties আর shaon,23 হচ্ছে ভ্যালু। 
-অবজেক্ট এর keys/properties and value pair আকারে থাকবে। 
+অবজেক্ট এর keys/properties and value pair হিসাবে থাকে। 
 object হলো একটি non-primitive data .
 যার ভ্যালু mixed হবে। স্ট্রিং, নাম্বার, বুলিয়ান ইত্যাদি। 
+
+to get and set object properties 
+
+object এর properties access করতে ২ ধরনের পদ্ধতি অবলম্বন করা যায়। 
+১। dot notation : মনে অবজেক্ট এর নামের পরে dot দিয়ে access করা।
+example : 
+const obj = {
+  name: "Shaon",
+  age: 23,
+  location: "Malaysia",
+};
+const name = obj.name;
+console.log(name);
+
+২। bracket notation(Recommended) : অবজেক্ট এর নামের পরে ব্রাকেট এর মধ্যে properties রেখে access করা।
+example : 
+const person = {
+  name: "Shaon",
+  age: 23,
+  location: "Malaysia",
+};
+const age = person["age"];
+console.log(age);
+
+
+// value access and change
+const person = {
+  name: "Shaon",
+  age: 23,
+  profession: "Developer",
+  salary: 40000,
+};
+
+person["salary"] += 10000;
+console.log(person["salary"]);
+
+// or
+
+const position = "profession";
+person[position] = "DevOps";
+console.log(person);
