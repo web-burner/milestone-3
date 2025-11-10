@@ -84,19 +84,60 @@
 // const name = obj.name;
 // console.log(name);
 
-// value access and change
-const person = {
-  name: "Shaon",
-  age: 23,
-  profession: "Developer",
-  salary: 40000,
+// // value access and change
+// const person = {
+//   name: "Shaon",
+//   age: 23,
+//   profession: "Developer",
+//   salary: 40000,
+// };
+
+// person["salary"] += 10000;
+// console.log(person["salary"]);
+
+// // or
+
+// const position = "profession";
+// person[position] = "DevOps";
+// console.log(person);
+
+// // keys of object
+// const person = {
+//   name: "Shaon",
+//   age: 23,
+//   profession: "Developer",
+//   salary: 40000,
+// };
+// const keys = Object.keys(person)
+// console.log(keys);
+
+// // value of object
+
+// const person = {
+//   name: "Shaon",
+//   age: 23,
+//   profession: "Developer",
+//   salary: 40000,
+// };
+// person.salary += 10000;
+// const values = Object.values(person);
+// console.log(values);
+
+// nested object
+const school = {
+  name: "Pora lekha valo na school",
+  class: 10,
+  subject: {
+    bangla: {
+      bangla1: "Bangla 1st",
+      bangla2: "Bangla 2nd",
+    },
+    english: {
+      english1: "English 1st",
+      english2: "English 2nd",
+    },
+  },
 };
 
-person["salary"] += 10000;
-console.log(person["salary"]);
-
-// or
-
-const position = "profession";
-person[position] = "DevOps";
-console.log(person);
+delete school.subject;
+console.log(school);

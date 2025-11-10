@@ -157,3 +157,74 @@ console.log(person["salary"]);
 const position = "profession";
 person[position] = "DevOps";
 console.log(person);
+
+
+keys of object : অবজেক্ট এর মধ্যে কয়টা keys আছে তা বের করা যায়। এইটা একটা এরে রিটার্ন করে।
+
+example : // keys of object 
+const person = {
+  name: "Shaon",
+  age: 23,
+  profession: "Developer",
+  salary: 40000,
+};
+const keys = Object.keys(person)
+console.log(keys);
+
+value of object : এইটা অবজেক্ট এর ভ্যালু গুলোকে একটা এরে আকারে রিটার্ন করে। 
+
+example: // value of object
+
+const person = {
+  name: "Shaon",
+  age: 23,
+  profession: "Developer",
+  salary: 40000,
+};
+person.salary += 10000;
+const values = Object.values(person);
+console.log(values);
+
+
+nester object : একটা অবজেক্ট এর মধ্যে একটা অবজেক্ট তার মধ্যে আরেকটা অবজেক্ট এইরকম।
+
+example: // nested object and get value and set 
+const school = {
+  name: "Pora lekha valo na school",
+  class: 10,
+  subject: {
+    bangla: {
+      bangla1: "Bangla 1st",
+      bangla2: "Bangla 2nd",
+    },
+    english: {
+      english1: "English 1st",
+      english2: "English 2nd",
+    },
+  },
+};
+
+console.log(school.subject.bangla.bangla1);
+
+
+delete properties :
+object থেকে কোনও একটা props ডিলিট করতে delete কিওয়ার্ড।
+
+example : // deleted nested object props
+const school = {
+  name: "Pora lekha valo na school",
+  class: 10,
+  subject: {
+    bangla: {
+      bangla1: "Bangla 1st",
+      bangla2: "Bangla 2nd",
+    },
+    english: {
+      english1: "English 1st",
+      english2: "English 2nd",
+    },
+  },
+};
+
+delete school.subject;
+console.log(school);
